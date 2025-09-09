@@ -37,5 +37,5 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: .
-          push: true
+          push: true 
           tags: ghcr.io/bhaumil111/nodejs-cilab:${{ github.sha }}
