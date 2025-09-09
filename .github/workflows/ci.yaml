@@ -38,4 +38,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/${{ github.repository_owner }}/nodejs-cilab:${{ github.sha }}
+          tags: ghcr.io/bhaumil111/nodejs-cilab:${{ github.sha }}
